@@ -4,6 +4,7 @@
 
     --dark-grayish-blue: hsl(210, 10%, 33%);
     --grayish-blue: hsl(201, 11%, 66%);
+    --white: hsl(0, 0%, 100%);
 }
 
 * {
@@ -24,6 +25,7 @@ h1 {
 }
 h2 {
     font-size: 1.5rem;
+    padding-bottom: 1em 0em;
 }
 h3 {
     font-size: 1.2rem;
@@ -35,6 +37,11 @@ P {
     max-width: 700px;
     line-height: 1.6;
     padding-top: 10px;
+}
+
+/*images size*/
+img {
+    max-width: 100%;
 }
 
 /*Layout*/
@@ -69,5 +76,55 @@ P {
     display: flex;
     align-content: center;
     justify-content: center;
-    margin-top: 1.5em;
+    padding: 1em 0em;
 }
+
+.button-ios {
+    background-color: var(--strong-cyan);
+    color: var(--white);
+    padding: 10px 28px;
+    border-radius: 50px;
+    font-family: "Bai Jamjuree", sans-serif;
+    font-size: 13px;
+    margin-right: 10px;
+}
+
+.button-mac {
+    background-color: var(--light-blue);
+    color: var(--white);
+    padding: 10px 28px;
+    border-radius: 50px;
+    font-family: "Bai Jamjuree", sans-serif;
+    font-size: 13px;
+    margin-right: 10px;
+}
+
+.button-ios:hover, .button-mac:hover{
+    cursor: pointer;
+    opacity: 80%;
+}
+
+.section-contents {
+    padding: 4em 0em;
+}
+
+.section-services {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.services-image {
+    margin-left: -70px;
+}
+
+.services-content {
+    padding-left: 5em;
+    padding-right: 1em;
+}
+
+.services-container {
+    padding: 2em 0em;
+    max-width: 380px;
+}
+
