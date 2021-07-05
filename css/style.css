@@ -143,3 +143,24 @@ img {
     padding: 5em 0em;
 }
 
+.section-title {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center; 
+    text-align: center;
+}
+
+.section-title p {
+    max-width: 100%;
+}
+
+.card-container {
+    padding: 4em 0em;
+    display: flex;
+    align-content: center;
+    justify-content: center; 
+    text-align: center;
+
+    border: 3px solid red;
+}
