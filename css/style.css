@@ -128,3 +128,18 @@ img {
     max-width: 380px;
 }
 
+.section-access {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 6em;
+    padding-right: .5em;
+    padding-left: .5em;
+    align-items: center;
+    justify-content: center;
+}
+
+.section-access img {
+    padding: 5em 0em;
+}
+
