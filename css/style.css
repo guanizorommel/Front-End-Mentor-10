@@ -29,6 +29,7 @@ h2 {
 }
 h3 {
     font-size: 1.2rem;
+    padding-top: 1.5em;
 }
 P {
     font-size: 18px;
@@ -161,6 +162,19 @@ img {
     align-content: center;
     justify-content: center; 
     text-align: center;
+}
 
-    border: 3px solid red;
+.cards {
+    padding: 1em 1em;
+}
+
+.cards p {
+    max-width: 400px;
+}
+
+.section-logos {
+    width: 1400px;
+    display: flex;
+    justify-content: space-around;
+    padding: 2em 0em;
 }
