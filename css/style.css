@@ -208,7 +208,7 @@ img {
     margin: 0 auto;
     display: flex;
     align-items: top;
-    justify-content: left;
+    justify-content: space-around;
 }
 
 .footerimage {
@@ -216,7 +216,119 @@ img {
     padding-right: 20px;
 }
 
+
 .footer-links {
-    padding: 0em 4em;
+    width: 150px;
+}
+
+.footer-social {
+    padding: 1em 1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-social ul {
+    display: flex;
+    list-style: none;
+}
+
+.footer-social li {
+    padding: 0em 1em;
+    color: var(--dark-grayish-blue);
+}
+
+.footer-social li:hover {
+    color: var(--strong-cyan);
+    transition: .2s ease-in;
+    cursor: pointer;
+}
+
+/*Media Query*/
+
+@media(max-width:825px) {
+    .hero {
+        background-image: url(../images/bg-header-mobile.png);
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    h1 {
+        max-width: 320px;
+    }
+
+    p {
+        max-width: 320px;
+    }
+
+    .button-container {
+        flex-direction: column;
+    }
+
+    .button-mac {
+        margin-top: 20px;
+    }
+
+    .section-services {
+        flex-direction: column;
+        padding: 1em 1em;
+    }
+
+    .services-image{
+        margin-left: 0;
+        padding: 1em 2em;
+    }
+
+    .services-content {
+        padding: 1em 1em;
+        text-align: center;
+    }
+
+    .card-container {
+        flex-direction: column;
+    }
+    .cards {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .section-logos {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .logo {
+        padding: 2em 1em;
+    }
+
+    .footer-container {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .footerimage {
+        text-align: center;
+        padding: 1em 0em;
+    }
+
+    .footer-links {
+        text-align: center;
+        max-width: 100%;
+    }
+
+    .footer-social ul {
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+        margin: 0;
+    }
 }
 
